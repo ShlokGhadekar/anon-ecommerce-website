@@ -19,18 +19,18 @@
   /**
    * colors
    */
-
-  --spanish-gray: hsl(0, 0%, 60%);
-  --sonic-silver: hsl(0, 0%, 47%);
-  --eerie-black: hsl(0, 0%, 13%);
-  --salmon-pink: hsl(353, 100%, 78%);
-  --sandy-brown: hsl(29, 90%, 65%);
-  --bittersweet: hsl(0, 100%, 70%);
-  --ocean-green: hsl(152, 51%, 52%);
-  --davys-gray: hsl(0, 0%, 33%);
-  --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 100%, 100%);
-  --onyx: hsl(0, 0%, 27%);
+<!-- edited this block of code -->
+  --spanish-gray: hsl(240, 38%, 3%);
+  --sonic-silver: hsl(0, 0%, 0%);
+  --eerie-black: hsl(0, 0%, 0%);
+  --salmon-pink: hsl(0, 0%, 0%);
+  --sandy-brown: hsl(204, 83%, 58%);
+  --bittersweet: hsl(212, 85%, 34%);
+  --ocean-green: hsl(0, 0%, 0%);
+  --davys-gray: hsl(0, 0%, 0%);
+  --cultured: hsl(255, 91%, 50%);
+  --white: hsl(0, 0%, 100%);
+  --onyx: hsl(0, 0%, 0%);
 
   /**
    * typography
