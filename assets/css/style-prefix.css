@@ -20,17 +20,18 @@
    * colors
    */
 
-  --spanish-gray: hsl(0, 0%, 60%);
-  --sonic-silver: hsl(0, 0%, 47%);
-  --eerie-black: hsl(0, 0%, 13%);
-  --salmon-pink: hsl(353, 100%, 78%);
-  --sandy-brown: hsl(29, 90%, 65%);
-  --bittersweet: hsl(0, 100%, 70%);
-  --ocean-green: hsl(152, 51%, 52%);
-  --davys-gray: hsl(0, 0%, 33%);
-  --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 100%, 100%);
-  --onyx: hsl(0, 0%, 27%);
+   --spanish-gray: hsl(240, 38%, 3%);
+  --sonic-silver: hsl(0, 0%, 0%);
+  --eerie-black: hsl(0, 0%, 0%);
+  --salmon-pink: hsl(0, 0%, 0%);
+  --sandy-brown: hsl(204, 83%, 58%);
+  --bittersweet: hsl(212, 85%, 34%);
+  --ocean-green: hsl(0, 0%, 0%);
+  --davys-gray: hsl(0, 0%, 0%);
+  --cultured: hsl(255, 91%, 50%);
+  --white: hsl(0, 0%, 100%);
+  --onyx: hsl(0, 0%, 0%);
+
 
   /**
    * typography
@@ -65,7 +66,7 @@
    * transition 
    */
 
-  --transition-timing: 0.2s ease;
+  
 
 }
 
@@ -394,7 +395,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   bottom: 80px;
   left: 20px;
   right: 20px;
-  background: var(--white);
+  
   max-width: 300px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -477,7 +478,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .toast-banner {
   width: 70px;
   height: 70px;
-  border: 1px solid var(--cultured);
+  border: 1px solid var(--white);
   -webkit-border-radius: var(--border-radius-sm);
           border-radius: var(--border-radius-sm);
 }
@@ -2228,7 +2229,7 @@ footer {
 
   .banner-text {
     display: block;
-    color: var(--sonic-silver);
+    color: var(--white);
     font-size: var(--fs-7);
     font-weight: var(--weight-500);
     margin-bottom: 10px;
